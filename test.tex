@@ -4,10 +4,10 @@
 
 \usepackage{graphicx}
 \usepackage{tikz}
-\usepackage{bxpgfcurpage}
+%\usepackage{bxpgfcurpage}
 \usepackage{lipsum}
-\usepackage{xsavebox} %save content for repeated use
-\usepackage{atbegshi} %insert material on every page
+%\usepackage{xsavebox} %save content for repeated use
+%\usepackage{atbegshi} %insert material on every page
 \usepackage{layout}
 \usepackage[top=2.3truecm, bottom=1.3truecm, left=0.6truecm, right=0.6truecm, footskip=0.8truecm, headsep=1.5truecm]{geometry}
 \usetikzlibrary{calc}
@@ -21,14 +21,18 @@
 \renewcommand\familydefault{\sfdefault}
 
 \pagestyle{fancy}
-% ヘッダ中央
+% ヘッダ右
 \renewcommand{\headrulewidth}{0pt} % ヘッダーの羅線をなくす
 \fancyhead[R]{\footnotesize 全ページ \pageref{LastPage} 中 \thepage{} ページ}
 % フッタ中央
 \fancyfoot[C]{\small hogehoge\&foobar株式会社}
 
-
+%%%%%%%%%%%%%%
+% 報告書No.はここを変える
 \newcommand{\登録番号}{TR23-1001094-01}
+%%%%%%%%%%%%%%
+
+% 画像フォルダのパスを設定
 \graphicspath{{./image/}}
 
 
@@ -60,10 +64,10 @@ rectangle
 \end{tikzpicture}%
 }
 
-
 \AddToShipoutPictureBG{\usebox{\myheader}}
 
 
+% ここから本文
 \begin{document}
 
 \begin{center}
