@@ -1,0 +1,35 @@
+% report-style.sty
+\ProvidesPackage{report-style}
+
+% Required packages
+\usepackage{fancyhdr} % For header and footer customization
+\usepackage{tikz} % For drawing boxes
+\usepackage{framed} % For drawing frames around text
+
+% Define header and footer
+\pagestyle{fancy}
+\fancyhead{} % Clear header
+\fancyfoot{} % Clear footer
+\fancyhead[R]{\begin{tikzpicture}[remember picture,overlay]
+    \node[rectangle,draw,anchor=west,inner sep=5pt] at ([xshift=-0.5cm]current page.north east) {\textbf{Report No.}};
+\end{tikzpicture}}
+
+% Define box for report number
+\newcommand{\reportnumber}[1]{%
+\begin{tikzpicture}[remember picture,overlay]
+    \node[rectangle,draw,anchor=west,inner sep=5pt] at ([xshift=-2.7cm,yshift=-0.5cm]current page.north east) {\textbf{#1}};
+\end{tikzpicture}
+}
+
+% Define frame around text
+% \newenvironment{reportframe}{%
+% \def\FrameCommand{\fboxsep=\FrameSep \fbox{\colorbox{white}}}%
+% \MakeFramed {\advance\hsize-\width \FrameRestore}}%
+% {\endMakeFramed}
+\definecolor{framecolor}{RGB}{0,0,128} % Set frame color
+\newenvironment{reportframe}{%
+\def\FrameCommand{\colorbox{white}}%
+\MakeFramed {\advance\hsize-\width \FrameRestore}}%
+{\endMakeFramed}
+
+%\endinput

@@ -1,0 +1,97 @@
+% report.tex
+%\documentclass[dvipdfmx]{jlreq}
+\documentclass[dvipdfmx]{jsarticle}
+
+
+\usepackage{tikz}
+\usepackage{bxpgfcurpage}
+\usepackage{lipsum}
+\usepackage{xsavebox} %save content for repeated use
+\usepackage{atbegshi} %insert material on every page
+\usepackage{layout}
+\usepackage{geometry}
+\usetikzlibrary{calc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+% \title{Title Page}
+
+% \xsavebox{PageBGPicture}{%
+% \begin{tikzpicture}[overlay,remember picture]
+%     \draw [line width=1.0pt,rounded corners=10pt,]
+%         ($ (current page.north west) + (2.5cm,-2.5cm) $)
+%         rectangle
+%         ($ (current page.south east) + (-2.5cm,2.5cm) $);
+%     \end{tikzpicture}
+% }
+
+% \xsavebox{PageBGPicture}{%
+%   \begin{tikzpicture}
+%   \node [rectangle, fill=yellow, minimum width=9cm, minimum height=\paperheight] (box) {};
+%   \end{tikzpicture}
+% }
+
+
+%\begin{document}
+
+%\begin{titlepage}
+% \begin{tikzpicture}[overlay,remember picture]
+% \draw [line width=1.0pt,rounded corners=10pt,]
+%     ($ (current page.north west) + (0.5cm,-0.5cm) $)
+%     rectangle
+%     ($ (current page.south east) + (-0.5cm,0.5cm) $);
+% \end{tikzpicture}
+
+% \AtBeginShipout{
+%   \AtBeginShipoutUpperLeft{\raisebox{-\height}{\xusebox{PageBGPicture}}}
+% }
+
+\usepackage{eso-pic}
+
+
+\newsavebox{\mybox}
+\savebox{\mybox}{%
+\begin{tikzpicture}[overlay]
+\draw [line width=1.0pt,rounded corners=10pt,]
+($ (current page.north west) + (0.5cm,-0.0cm) $)
+rectangle
+($ (current page.south east) + (-0.5cm,0.5cm) $);
+\end{tikzpicture}%
+}
+
+\AddToShipoutPictureBG{\usebox{\mybox}}
+
+\AddToShipoutPictureBG{%
+    \AtTextLowerLeft{%
+    \framebox(\dimexpr\textwidth+1.5cm, \dimexpr\textheight+0.5cm)}
+}
+
+\begin{document}
+
+\begin{center}
+        \vspace*{1cm}
+
+        \huge
+        \textbf{Sample title page with border}
+
+        \vspace{2.0cm}
+        \LARGE
+        \textbf{First name, Family name}
+
+        \vfill
+
+        \Large
+         Date: Today
+\end{center}
+%\end{titlepage}
+\newpage
+\layout
+\newpage
+
+\begin{tikzpicture}[remember picture, overlay]
+    \node[color=red!30!white,draw,line width=10pt,
+    rectangle,font=\gtfamily,scale=10,rotate=30]
+     at (current page.center) {部外秘};
+\end{tikzpicture}
+\lipsum
+
+\end{document}
