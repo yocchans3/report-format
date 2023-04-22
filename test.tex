@@ -1,69 +1,68 @@
 % report.tex
-%\documentclass[dvipdfmx]{jlreq}
-\documentclass[dvipdfmx]{jsarticle}
+\documentclass[dvipdfmx, fontsize=12pt]{jlreq}
+%\documentclass[dvipdfmx, a4paper, 14pt]{jsarticle}
 
-
+\usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{bxpgfcurpage}
 \usepackage{lipsum}
 \usepackage{xsavebox} %save content for repeated use
 \usepackage{atbegshi} %insert material on every page
 \usepackage{layout}
-\usepackage{geometry}
+\usepackage[top=2.3truecm, bottom=1.3truecm, left=0.6truecm, right=0.6truecm, footskip=0.8truecm, headsep=1.5truecm]{geometry}
 \usetikzlibrary{calc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-% \title{Title Page}
-
-% \xsavebox{PageBGPicture}{%
-% \begin{tikzpicture}[overlay,remember picture]
-%     \draw [line width=1.0pt,rounded corners=10pt,]
-%         ($ (current page.north west) + (2.5cm,-2.5cm) $)
-%         rectangle
-%         ($ (current page.south east) + (-2.5cm,2.5cm) $);
-%     \end{tikzpicture}
-% }
-
-% \xsavebox{PageBGPicture}{%
-%   \begin{tikzpicture}
-%   \node [rectangle, fill=yellow, minimum width=9cm, minimum height=\paperheight] (box) {};
-%   \end{tikzpicture}
-% }
-
-
-%\begin{document}
-
-%\begin{titlepage}
-% \begin{tikzpicture}[overlay,remember picture]
-% \draw [line width=1.0pt,rounded corners=10pt,]
-%     ($ (current page.north west) + (0.5cm,-0.5cm) $)
-%     rectangle
-%     ($ (current page.south east) + (-0.5cm,0.5cm) $);
-% \end{tikzpicture}
-
-% \AtBeginShipout{
-%   \AtBeginShipoutUpperLeft{\raisebox{-\height}{\xusebox{PageBGPicture}}}
-% }
-
+\usepackage{fancyhdr}
+\usepackage{lastpage}
 \usepackage{eso-pic}
 
+\renewcommand\kanjifamilydefault{\gtdefault}
+\renewcommand\familydefault{\sfdefault}
 
-\newsavebox{\mybox}
-\savebox{\mybox}{%
+\pagestyle{fancy}
+% ヘッダ中央
+\renewcommand{\headrulewidth}{0pt} % ヘッダーの羅線をなくす
+\fancyhead[R]{\footnotesize 全ページ \pageref{LastPage} 中 \thepage{} ページ}
+% フッタ中央
+\fancyfoot[C]{\small hogehoge\&foobar株式会社}
+
+
+\newcommand{\登録番号}{TR23-1001094-01}
+\graphicspath{{./image/}}
+
+
+%% 参考：https://dayinthelife-web.blogspot.com/2014/01/latex-geometry.html
+\newsavebox{\myheader}
+\savebox{\myheader}{%
 \begin{tikzpicture}[overlay]
-\draw [line width=1.0pt,rounded corners=10pt,]
-($ (current page.north west) + (0.5cm,-0.0cm) $)
+\draw [line width=1.0pt]
+($ (current page.north west) + (0.3cm,-1.0cm) $)
 rectangle
-($ (current page.south east) + (-0.5cm,0.5cm) $);
+($ (current page.north west) + (12.0cm,-2.0cm) $);
+\draw ($ (current page.north west) + (6.5cm,-1.5cm) $) node{\large \textbf{技 術 報 告 書}};
+\draw [line width=1.0pt]
+($ (current page.north west) + (12.0cm,-1.0cm) $)
+rectangle
+($ (current page.north west) + (15.0cm,-2.0cm) $);
+\draw ($ (current page.north west) + (13.5cm,-1.5cm) $) node{\textbf{登録番号}};
+\draw [line width=1.0pt]
+($ (current page.north west) + (15.0cm,-1.0cm) $)
+rectangle
+($ (current page.north east) + (-0.3cm,-2.0cm) $);
+\draw ($ (current page.north east) + (-3.2cm,-1.5cm) $) node{\textsf{\登録番号}};
+
+%% 本文部分の枠組み
+\draw [line width=1.0pt]
+($ (current page.north west) + (0.3cm,-2.0cm) $)
+rectangle
+($ (current page.south east) + (-0.3cm,1.0cm) $);
 \end{tikzpicture}%
 }
 
-\AddToShipoutPictureBG{\usebox{\mybox}}
 
-\AddToShipoutPictureBG{%
-    \AtTextLowerLeft{%
-    \framebox(\dimexpr\textwidth+1.5cm, \dimexpr\textheight+0.5cm)}
-}
+\AddToShipoutPictureBG{\usebox{\myheader}}
+
 
 \begin{document}
 
@@ -78,13 +77,8 @@ rectangle
         \textbf{First name, Family name}
 
         \vfill
-
-        \Large
-         Date: Today
 \end{center}
 %\end{titlepage}
-\newpage
-\layout
 \newpage
 
 \begin{tikzpicture}[remember picture, overlay]
@@ -92,6 +86,25 @@ rectangle
     rectangle,font=\gtfamily,scale=10,rotate=30]
      at (current page.center) {部外秘};
 \end{tikzpicture}
-\lipsum
+\lipsum[1-5]
+
+\newpage
+
+\section{はじめに}
+これは報告書用のフォーマットです。
+
+\subsection{使い方}
+\begin{itemize}
+    \item これは報告書用のフォーマットです
+    \item これは報告書用のフォーマットです
+\end{itemize}
+
+図表はこんな感じになります。図\ref{tiger}にトラの絵を示した。
+\begin{figure}
+    \centering
+    \includegraphics[keepaspectratio=true,width=0.47\textwidth]{tiger.png}
+    \caption{This is a tiger.}
+    \label{tiger}
+\end{figure}
 
 \end{document}
