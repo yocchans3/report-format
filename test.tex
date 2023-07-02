@@ -11,11 +11,14 @@
 \usepackage{layout}
 \usepackage[top=2.3truecm, bottom=1.3truecm, left=0.6truecm, right=0.6truecm, footskip=0.8truecm, headsep=1.5truecm]{geometry}
 \usetikzlibrary{calc}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
+%\usepackage[T1]{fontenc}
+\usepackage{newpxtext, newpxmath}
+%\usepackage{lmodern}
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{eso-pic}
+%\usepackage[hiragino-pron]{pxchfon}
+
 
 \renewcommand\kanjifamilydefault{\gtdefault}
 \renewcommand\familydefault{\sfdefault}
@@ -104,6 +107,8 @@ rectangle
 \end{itemize}
 
 図表はこんな感じになります。図\ref{tiger}にトラの絵を示した。
+
+45PL $\times$ 40Aの組み合わせにて検証を行った。
 \begin{figure}
     \centering
     \includegraphics[keepaspectratio=true,width=0.47\textwidth]{tiger.png}

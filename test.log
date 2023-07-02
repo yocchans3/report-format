@@ -1,19 +1,20 @@
-This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.4.2)  22 APR 2023 08:09
+This is e-upTeX, Version 3.141592653-p4.1.0-u1.29-230214-2.6 (utf8.uptex) (TeX Live 2023) (preloaded format=uplatex 2023.6.29)  2 JUL 2023 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **test.tex
 (./test.tex
-pLaTeX2e <2023-02-14u04>+1 (based on LaTeX2e <2022-11-01> patch level 1)
-L3 programming layer <2023-03-30>
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-16>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/jlreq/jlreq.cls
-Document Class: jlreq 2023/03/05 jlreq
+Document Class: jlreq 2023/06/19 jlreq
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-03-30 L3 programming layer (loader) 
+Package: expl3 2023-06-16 L3 programming layer (loader) 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
-File: l3backend-dvipdfmx.def 2023-03-30 L3 backend support: dvipdfmx
+File: l3backend-dvipdfmx.def 2023-04-19 L3 backend support: dvipdfmx
 \g__graphics_track_int=\count184
 \l__pdf_internal_box=\box68
 \g__pdf_backend_object_int=\count185
@@ -26,7 +27,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count188
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty
-Package: jlreq-helpers 2022/11/28 jlreq-helpers
+Package: jlreq-helpers 2023/06/19 jlreq-helpers
 \jlreq@tempcnta=\count189
 \jlreq@tempcntb=\count190
 \jlreq@tempcntc=\count191
@@ -60,12 +61,12 @@ Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
 )
 Package: everyhook 2014/11/26 v1.2 (SVN Rev: 12)\ Hooks for low level TeX every
 X primitives.
-\everypar=\toks17
-\frozen@everymath=\toks18
-\frozen@everydisplay=\toks19
-\everyhbox=\toks20
-\everyvbox=\toks21
-\everycr=\toks22
+\everypar=\toks18
+\frozen@everymath=\toks19
+\frozen@everydisplay=\toks20
+\everyhbox=\toks21
+\everyvbox=\toks22
+\everycr=\toks23
 )
 \jlreq@current@linewidth=\dimen161
 \jlreq@rest@linewidth=\dimen162
@@ -145,9 +146,9 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 \@lnumwidth=\dimen173
 \jlreq@top@contents=\count272
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 6386.
+(Font)              scaled to size 10.79993pt on input line 6387.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 6386.
+(Font)              scaled to size 10.79993pt on input line 6387.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/jlreq/jlreq-complements.sty
 Package: jlreq-complements 2022/11/28 jlreq-complements
@@ -163,7 +164,7 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks23
+\KV@toks@=\toks24
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
@@ -187,7 +188,7 @@ File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
 (/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks24
+\pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen176
 \pgfutil@tempdimb=\dimen177
 )
@@ -204,12 +205,12 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
 tered.code.tex
-\pgfkeys@tmptoks=\toks27
+\pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen178
 \pgf@y=\dimen179
@@ -227,9 +228,9 @@ tered.code.tex
 \c@pgf@countb=\count274
 \c@pgf@countc=\count275
 \c@pgf@countd=\count276
-\t@pgf@toka=\toks28
-\t@pgf@tokb=\toks29
-\t@pgf@tokc=\toks30
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
 \pgf@sys@id@count=\count277
 
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
@@ -282,9 +283,9 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 \pgfmath@dimen=\dimen188
 \pgfmath@count=\count281
 \pgfmath@box=\box80
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex)
@@ -435,8 +436,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen271
 \pgffor@skip=\dimen272
-\pgffor@stack=\toks34
-\pgffor@toks=\toks35
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 ))
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -539,20 +540,12 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen287
 \Gm@layouthoffset=\dimen288
 \Gm@layoutvoffset=\dimen289
-\Gm@dimlist=\toks36
+\Gm@dimlist=\toks37
 )
 (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-))
 (/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
@@ -567,67 +560,67 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@orf=\skip64
 )
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2023/03/07 v2.0a lastpage: 2.09 or 2e? (HMM)
+Package: lastpage 2023/04/12 v2.0b lastpage: 2.09 or 2e? (HMM)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2023/03/07 v2.0a Decide which 2e lastpage version to use (H
+Package: lastpage2e 2023/04/12 v2.0b Decide which 2e lastpage version to use (H
 MM)
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2023-03-07 v2.0a Refers to last page's name (HMM; JPG)
+Package: lastpagemodern 2023-04-12 v2.0b Refers to last page's name (HMM; JPG)
 ) 
 )) (/usr/local/texlive/2023/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2023/03/23 v3.0b eso-pic (RN)
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen290
 \ESO@tempdimb=\dimen291
 )
 \myheader=\box90
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 14.4pt on input line 65.
+(Font)              scaled to size 14.4pt on input line 68.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 14.4pt on input line 65.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 65.
+(Font)              scaled to size 14.4pt on input line 68.
+LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 14.4pt on input line 65.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 65.
+(Font)              scaled to size 14.4pt on input line 68.
+LaTeX Font Info:    Font shape `JY2/mc/b/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 14.4pt on input line 65.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 65.
+(Font)              scaled to size 14.4pt on input line 68.
+LaTeX Font Info:    Font shape `JT2/mc/b/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 65.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 65.
+(Font)              scaled to size 12.0pt on input line 68.
+LaTeX Font Info:    Font shape `JY2/mc/b/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 65.
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 6
-5.
+(Font)              scaled to size 12.0pt on input line 68.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+68.
 
-(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./test.aux)
 \openout1 = `test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
 
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
@@ -663,41 +656,41 @@ LaTeX Font Info:    ... okay on input line 71.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 24.0pt on input line 76.
+(Font)              scaled to size 24.0pt on input line 79.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 24.0pt on input line 76.
+(Font)              scaled to size 24.0pt on input line 79.
 LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <24> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 80.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 24.0pt on input line 77.
+(Font)              scaled to size 24.0pt on input line 80.
 LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <24> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 80.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 24.0pt on input line 77.
+(Font)              scaled to size 24.0pt on input line 80.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 20.4pt on input line 80.
+(Font)              scaled to size 20.4pt on input line 83.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 20.4pt on input line 80.
+(Font)              scaled to size 20.4pt on input line 83.
 LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <20.4> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 81.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 20.4pt on input line 81.
+(Font)              scaled to size 20.4pt on input line 84.
 LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <20.4> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 81.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 20.4pt on input line 81.
+(Font)              scaled to size 20.4pt on input line 84.
 LaTeX Font Info:    Font shape `JT2/gt/m/sl' in size <12> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 86.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 86.
+(Font)              scaled to size 12.0pt on input line 89.
 LaTeX Font Info:    Font shape `JY2/gt/m/sl' in size <12> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 86.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 89.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 12.0pt on input line 86.
+(Font)              scaled to size 12.0pt on input line 89.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.60004pt on input line 86.
+(Font)              scaled to size 9.60004pt on input line 89.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.60004pt on input line 86.
+(Font)              scaled to size 9.60004pt on input line 89.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 20.39998pt, for example:
@@ -707,9 +700,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-8.39998pt}.
 
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 86.
+(Font)              scaled to size 10.79993pt on input line 89.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 86.
+(Font)              scaled to size 10.79993pt on input line 89.
 [1
 
 ]
@@ -727,40 +720,74 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 16.8pt on input line 98.
+(Font)              scaled to size 16.8pt on input line 101.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 16.8pt on input line 98.
+(Font)              scaled to size 16.8pt on input line 101.
 LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <16.8> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 98.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 16.8pt on input line 98.
-LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <16.8> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 98.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 16.8pt on input line 98.
-LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <14.4> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 101.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 14.4pt on input line 101.
-LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <14.4> not available
+(Font)              scaled to size 16.8pt on input line 101.
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <16.8> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 101.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 14.4pt on input line 101.
+(Font)              scaled to size 16.8pt on input line 101.
+LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 104.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 14.4pt on input line 104.
+LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 104.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 14.4pt on input line 104.
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-102.
+105.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-File: ./image//tiger.png Graphic file (type bmp)
-<./image//tiger.png>
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+11.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+11.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+111.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+111.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 111.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 111.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 111.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.0pt on input line 111.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.0pt on input line 111.
+File: ./image/tiger.png Graphic file (type bmp)
+<./image/tiger.png>
 LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <10.79993> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 110.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 110.
+(Font)              scaled to size 10.79993pt on input line 115.
 LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <10.79993> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 110.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 110.
+(Font)              scaled to size 10.79993pt on input line 115.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -772,14 +799,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3] 
 enddocument/afterlastpage: lastpage setting LastPage.
-(./test.aux) ) 
+(./test.aux)
+ ***********
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-16>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 15797 strings out of 478168
- 344396 string characters out of 5841720
- 1854490 words of memory out of 5000000
- 35879 multiletter control sequences out of 15000+600000
- 577845 words of font info for 92 fonts, out of 8000000 for 9000
+ 15546 strings out of 477869
+ 339654 string characters out of 5833686
+ 1856605 words of memory out of 5000000
+ 35914 multiletter control sequences out of 15000+600000
+ 579472 words of font info for 105 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 85i,12n,104p,850b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,12n,104p,850b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on test.dvi (3 pages, 15840 bytes).
+Output written on test.dvi (3 pages, 15968 bytes).
